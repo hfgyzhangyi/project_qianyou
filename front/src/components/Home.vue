@@ -34,12 +34,171 @@
           </div>
         </div>
       </nav>
+      <div class="container container-zindex container-index">
+        <img class="img-responsive" src="../assets/showcase-header.png">
+        <h1>移动公关第一品牌</h1>
+        <p>未来,我们一直在路上 移动互联网时代的创意革命 “北京前推”</p>
+      </div>
     </div>
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-3">
+          <img width="140" height="140" alt="Generic placeholder image" src="../assets/Spread.png" class="">
+          <h2>社会化媒体传播</h2>
+          <p>以落地活动为主要传播信息，定期将文字、图片及视频短片传到官方微信、微博进行传播。</p>
+        </div><!-- 社会化媒体传播 -->
+        <div class="col-lg-3">
+          <img width="140" height="140" alt="Generic placeholder image" src="../assets/mobile.png" class="">
+          <h2>移动互联网搭建</h2>
+          <p>根据客户的需求，市场状况，企业情况等进行搭建适合客户的微信。 </p>
+        </div><!-- 移动互联网搭建 -->
+        <div class="col-lg-3">
+          <img width="140" height="140" alt="Generic placeholder image" src="../assets/weixin.png" class="">
+          <h2>微信全案营销</h2>
+          <p>为企业量身定制独立的全案营销方案，全方位的为客户提供有效的解决方案。</p>
+        </div><!-- 微信全案营销 -->
+        <div class="col-lg-3">
+          <img width="140" height="140" alt="Generic placeholder image" src="../assets/web.png" class="">
+          <h2>定制项目开发</h2>
+          <p>丰富Web组件，可二次开发的面板，可快速构建界面出色、体验优秀的跨屏页面。</p>
+        </div><!-- 定制项目开发 -->
+      </div>
+    </div>
+    <div class="container marketing marketing-media">
+      <div class="row featurette">
+        <div class="col-md-5">
+          <div data-ride="carousel" class="carousel slide" id="myCarousel">
+            <div role="listbox" class="carousel-inner">
+              <div class="item">
+                <img alt="First slide" src="../assets/banner.png" class="first-slide">
+              </div>
+              <div class="item">
+                <img alt="Second slide" src="../assets/banner.png" class="second-slide">
+              </div>
+              <div class="item">
+                <img alt="Third slide" src="../assets/banner.png" class="third-slide">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">媒介资源 <span class="text-muted" style="font-size:22px;"> ...</span></h2>
+          <p class="lead">微信订阅号<span>总账户数超70000+</span>，累计订阅量100亿，覆盖行业广泛，受众群体精准</p>
+          <ul class="present-list"><li>资源可视化展示及操作</li><li>历史及实时监控图表</li><li>记录所有重要操作行为</li><li>工单系统，第一时间解决资源相关问题</li></ul>
+          <p><a role="button" href="#" class="btn btn-lg btn-success">了解详情<span class="glyphicon glyphicon-menu-right"></span></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid container-fluid-back ">
+      <div class="container">
+        <div class="text-center text-header-title">
+          <h1>我们拥有最全面的数据资源</h1>
+          <p><span>拥有1200家媒体</span>，新闻稿在线媒体实时更新综合门户、地方门户、行业媒体细分。</p>
+          <p>微信订阅号<span>总账户数超70000+</span>，累计订阅量100亿，覆盖行业广泛，受众群体精准。</p>
+          <p>微信朋友圈<span>总账户数超22000+</span>，累计好友量1亿5千万，覆盖行业广泛，受众群体精准，均视频认证过确保真实。</p>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom:40px; margin-top:40px;">
+      <div class="container text-center text-center-h1">
+          <h1>他们选择了我们</h1>
+      </div>
+      <div data-example-id="simple-thumbnails" class="bs-example">
+        <div class="row thumbnail-clear">
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.qunar.com/" target="_blank" title="去哪儿网">
+              <img alt="100%x110" data-src="holder.js/100%x110" style="height: 110px; width: 100%; display: block;" src="../assets/h1.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.amazon.cn/" target="_blank" title="卓越亚马逊">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h2.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.cebbank.com/" target="_blank" title="光大银行">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h3.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.lexus.com.cn/" target="_blank" title="雷克萨斯">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h4.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.haval.cn/" target="_blank" title="哈佛网">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h5.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.yonyou.com/" target="_blank" title="用友yonyou">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h6.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.xiaoniu88.com/" target="_blank" title="小牛在线">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h7.png" data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail thumbnail-bottom" href="http://www.hzkywy.com/" target="_blank" title="开元物业">
+              <img alt="100%x180" data-src="holder.js/100%x180" style="height: 110px; width: 100%; display: block;" src="../assets/h8.png" data-holder-rendered="true">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="main-footer  main-footer1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="widget">
+              <h4 class="title"><img src="../assets/logo-blue.png"></h4>
+              <div class="content recent-post">
+                <div class="recent-single-post"><div class="date">QIANTUI移动公关第一品牌，我们拥有最全面的媒介数据库资源，我们能给您提供全面的服务 。</div></div>
+                <div class="recent-single-post"><a class="post-title" href="#">北京前友推广信息科技有限公司</a><div class="date" style="padding-top:10px;">Copyright © 2017 </div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="widget">
+              <h4 class="title"></h4>
+              <div class="content-about">
+                <div><a href="javascript:;">关于我们</a></div>
+                <div><a href="javascript:;">联系我们</a></div>
+                <div><a href="javascript:;" target="_blank">加入我们</a></div>
+                <div><a href="javascript:;">产品服务</a></div>
+                <div><a href="javascript:;">经典案例</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="widget">
+              <h4 class="title"></h4>
+              <div class="content-about">
+                <div><a href="javascript:;">平台优势</a></div>
+                <div><a href="javascript:;">服务条款</a></div>
+                <div><a href="javascript:;">免责声明</a></div>
+                <div><a href="javascript:;">合作代理</a></div>
+                <div><a href="javascript:;">帮助中心</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="widget">
+              <div class="content-about">
+                <img src="../assets/ewm.jpg" width="148" height="148" style="border:1px solid #eee; padding:5px;" title="扫描二维码。关注我们。">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-//http://moban.dede58.com/20180129a/15/themes/img/ad/header-bj1.jpg
+//http://moban.dede58.com/20180129a/15/themes/img/ewm.jpg
 import $ from 'jquery'
 export default {
   methods:{
@@ -53,9 +212,25 @@ export default {
       }
     },
     navLink(e){
-      $(".active").removeClass("active");
+      $(".navbar-nav>li.active").removeClass("active");
       $(e.currentTarget).addClass("active");
     }
+  },
+  mounted(){
+    var width = document.getElementsByClassName("carousel-inner")[0].offsetWidth;
+    $(".carousel-inner>.item>img").width(width);
+    $(".carousel-inner").width(width*3);
+    window.addEventListener("resize", function(){
+      location.reload();
+    })
+    setInterval(function(){
+      var item0 = document.getElementsByClassName("item")[0];
+      $(".carousel-inner").animate({"marginLeft":-width+"px"},function(){
+        $(item0).remove();
+        $(".carousel-inner").append(item0);
+        $(".carousel-inner").animate({"marginLeft":"0px"}, 0);
+      })
+    }, 3000);
   }
 }
 </script>
@@ -254,5 +429,176 @@ export default {
 .navbar-collapse::-webkit-scrollbar{
   width: 0px;
   height: 0px;
+}
+.container-zindex{
+  z-index: 9999;
+  position: relative;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-responsive{
+  display: block;
+  height: auto;
+  max-width: 100%;
+  z-index: 999;
+}
+.container-zindex h1{
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+.container-index h1{
+  text-align: center;
+  font-size: 50px;
+}
+.container-index p{
+  text-align: center;
+}
+.container-zindex p{
+  color: #fff;
+  font-size: 18px;
+  padding-top: 20px;
+}
+.marketing{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+img{
+  vertical-align: middle;
+}
+.marketing .col-lg-3{
+  text-align: center;
+}
+.marketing .row .col-lg-3 h2{
+  font-size: 18px;
+}
+.marketing .row .col-lg-3 p{
+  color: #888;
+  font-size: 13px;
+}
+.marketing-media{
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+.carousel-inner>.item{
+  display: block;
+  float: left;
+}
+.carousel{
+  overflow: hidden;
+}
+.marketing .featurette h2{
+  padding-bottom: 10px;
+}
+.h1, .h2, .h3, h1, h2, h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.lead{
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.marketing .featurette p{
+  font-size: 18px;
+  line-height: 2em;
+}
+.present-list{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.present-list li{
+  line-height: 1.8em;
+}
+.container-fluid-back{
+  background: url("../assets/footer.jpg") no-repeat center bottom;
+  height: 460px;
+}
+.text-header-title h1{
+  color: #eee;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.h1, h1{
+  font-size: 36px;
+}
+.text-header-title p{
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #eee;
+}
+.text-header-title span{
+  color: #ffcc00;
+  font-size: 19px;
+}
+.text-center-h1 h1{
+  padding-bottom: 25px;
+}
+.thumbnail-clear div{
+  padding-left: 0;
+  padding-right: 0;
+}
+.thumbnail{
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.thumbnail{
+  border-radius: 0;
+  padding: 0;
+  border: none;
+  margin-bottom: 20px;
+}
+.thumbnail-bottom{
+  padding: 5px;
+  margin-bottom: 0;
+}
+.col-xs-6{
+  width: 50%;
+}
+.widget{
+  margin-bottom: 35px;
+}
+.main-footer .widget{
+  padding: 0 30px;
+}
+.widget .recent-post .recent-single-post{
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+}
+.main-footer .widget .recent-post .recent-single-post .date{
+  color: #505050;
+}
+.main-footer .widget .recent-post .recent-single-post .post-title{
+  color: #959595;
+}
+.content-about{
+  margin-top: 60px;
+}
+.content-about div{
+  margin-bottom: 10px;
+}
+a{
+  color: #337ab7;
+  text-decoration: none;
+}
+.btn{
+  color: #fff;
 }
 </style>
