@@ -143,6 +143,11 @@
 <script>
 import $ from 'jquery'
 export default {
+    data(){
+        return{
+            h:0
+        }
+    },
     methods:{
         navbarCollapse(){
             if(!$(".header-main .navbar-collapse").data("expanded")){
@@ -154,13 +159,11 @@ export default {
             }
         },
         menuItemClick(e){
-            /*
             $(".menuItem.active").removeClass("active");
             $(e.currentTarget).addClass("active");
-            */
         },
         counter(e){
-            /*
+            $(window).off("scroll",this.dealScroll);
             var index = $(e.currentTarget).parent().index();
             if(index===0){
                 document.querySelector("#features").scrollIntoView(true);
@@ -175,48 +178,49 @@ export default {
             }else{
                 document.querySelector("#wordpress").scrollIntoView(true);
             }
-            */
+            setTimeout(() => {
+                $(window).on("scroll",this.dealScroll);
+            }, 100);
+        },
+        dealScroll(){
+            var h1 = $("#features").offset().top+$("#features").height();
+            var h2 = $("#updates").offset().top+$("#updates").height();
+            var h3 = $("#installation").offset().top+$("#installation").height();
+            var h4 = $("#one-pager").offset().top+$("#one-pager").height();
+            var h5 = $("#extras").offset().top+$("#extras").height();
+            var h6 = $("#wordpress").offset().top+$("#wordpress").height();
+            var scrollTop = $(window).scrollTop();
+            if(scrollTop>this.h){
+                $(".stuckMenu").css("position","fixed")
+            }else{
+                $(".stuckMenu").css("position","relative")
+            }
+            if($(".stuckMenu").css("position")==="fixed"){
+                if(scrollTop<h1){
+                    $(".menuItem.active").removeClass("active");
+                    $(".menuItem:eq(0)").addClass("active");
+                }else if(scrollTop>=h1&&scrollTop<h2){
+                    $(".menuItem.active").removeClass("active");
+                    $(".menuItem:eq(1)").addClass("active");
+                }else if(scrollTop>=h2&&scrollTop<h3){
+                    $(".menuItem.active").removeClass("active");
+                    $(".menuItem:eq(2)").addClass("active");
+                }else if(scrollTop>=h3&&scrollTop<h4){
+                    $(".menuItem.active").removeClass("active");
+                    $(".menuItem:eq(3)").addClass("active");
+                }else if(scrollTop>=h4&&scrollTop<h5){
+                    $(".menuItem.active").removeClass("active");
+                    $(".menuItem:eq(4)").addClass("active");
+                }else{
+                    $(".menuItem.active").removeClass("active");
+                    $(".menuItem:eq(5)").addClass("active");
+                }
+            }
         }
     },
     mounted(){
-        var h = $(".navwrapper").offset().top+$(".navwrapper").height();
-        var h1 = $("#features").offset().top+$("#features").height();
-        var h2 = $("#updates").offset().top+$("#updates").height();
-        var h3 = $("#installation").offset().top+$("#installation").height();
-        var h4 = $("#one-pager").offset().top+$("#one-pager").height();
-        var h5 = $("#extras").offset().top+$("#extras").height();
-        var h6 = $("#wordpress").offset().top+$("#wordpress").height();
-        window.addEventListener("scroll",function(){
-            var scrollTop = $(window).scrollTop();
-            if(scrollTop>h){
-                $(".stuckMenu").css("position","fixed")
-                setTimeout(() => {
-                    if(scrollTop<h1){
-                        $(".menuItem.active").removeClass("active");
-                        $(".menuItem:eq(0)").addClass("active");
-                    }else if(scrollTop>=h1&&scrollTop<h2){
-                        $(".menuItem.active").removeClass("active");
-                        $(".menuItem:eq(1)").addClass("active");
-                    }else if(scrollTop>=h2&&scrollTop<h3){
-                        $(".menuItem.active").removeClass("active");
-                        $(".menuItem:eq(2)").addClass("active");
-                    }else if(scrollTop>=h3&&scrollTop<h4){
-                        $(".menuItem.active").removeClass("active");
-                        $(".menuItem:eq(3)").addClass("active");
-                    }else if(scrollTop>=h4&&scrollTop<h5){
-                        $(".menuItem.active").removeClass("active");
-                        $(".menuItem:eq(4)").addClass("active");
-                    }else{
-                        $(".menuItem.active").removeClass("active");
-                        $(".menuItem:eq(5)").addClass("active");
-                    }
-                }, 100);
-            }else{
-                if(scrollTop<988){
-                    $(".stuckMenu").css("position","relative")
-                }
-            }
-        })
+        this.h = $(".navwrapper").offset().top+$(".navwrapper").height();
+        $(window).on("scroll",this.dealScroll);
     }
 }
 </script>
