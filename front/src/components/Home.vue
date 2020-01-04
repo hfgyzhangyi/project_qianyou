@@ -15,19 +15,19 @@
           </div>
           <div class="navbar-collapse navbar-right collapse in" data-expanded="false" style="height:0px">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active" @click="navLink($event)">
+              <li class="active">
                   <router-link :to="{name:'Home'}">首页</router-link>
               </li>
-              <li class="" @click="navLink($event)">
-                  <router-link :to="{name:'Home'}">关于我们</router-link>
+              <li class="">
+                  <router-link :to="{name:'About'}">关于我们</router-link>
               </li>
-              <li class="dropdown" @click="navLink($event)">
-                  <router-link :to="{name:'Home'}">产品服务</router-link>
+              <li class="dropdown">
+                  <router-link :to="{name:'Service'}">产品服务</router-link>
               </li>
-              <li class="dropdown" @click="navLink($event)">
+              <li class="dropdown">
                   <router-link :to="{name:'Home'}">经典案例</router-link>
               </li>
-              <li class="dropdown" @click="navLink($event)">
+              <li class="dropdown">
                   <router-link :to="{name:'Home'}">联系我们</router-link>
               </li>
             </ul>
@@ -148,57 +148,12 @@
         </div>
       </div>
     </div>
-    <footer class="main-footer  main-footer1">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="widget">
-              <h4 class="title"><img src="../assets/logo-blue.png"></h4>
-              <div class="content recent-post">
-                <div class="recent-single-post"><div class="date">QIANTUI移动公关第一品牌，我们拥有最全面的媒介数据库资源，我们能给您提供全面的服务 。</div></div>
-                <div class="recent-single-post"><a class="post-title" href="#">北京前友推广信息科技有限公司</a><div class="date" style="padding-top:10px;">Copyright © 2017 </div></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="widget">
-              <h4 class="title"></h4>
-              <div class="content-about">
-                <div><a href="javascript:;">关于我们</a></div>
-                <div><a href="javascript:;">联系我们</a></div>
-                <div><a href="javascript:;" target="_blank">加入我们</a></div>
-                <div><a href="javascript:;">产品服务</a></div>
-                <div><a href="javascript:;">经典案例</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="widget">
-              <h4 class="title"></h4>
-              <div class="content-about">
-                <div><a href="javascript:;">平台优势</a></div>
-                <div><a href="javascript:;">服务条款</a></div>
-                <div><a href="javascript:;">免责声明</a></div>
-                <div><a href="javascript:;">合作代理</a></div>
-                <div><a href="javascript:;">帮助中心</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="widget">
-              <div class="content-about">
-                <img src="../assets/ewm.jpg" width="148" height="148" style="border:1px solid #eee; padding:5px;" title="扫描二维码。关注我们。">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
-//http://moban.dede58.com/20180129a/15/themes/img/ewm.jpg
+//http://moban.dede58.com/20180129a/15/themes/img/code/chuan.png
 import $ from 'jquery'
 export default {
   methods:{
@@ -210,10 +165,6 @@ export default {
         $(".navbar-collapse").css("height", "0px");
         $(".navbar-collapse").data("expanded", false);
       }
-    },
-    navLink(e){
-      $(".navbar-nav>li.active").removeClass("active");
-      $(e.currentTarget).addClass("active");
     }
   },
   mounted(){

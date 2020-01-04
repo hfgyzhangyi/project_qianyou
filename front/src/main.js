@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
+import MyFooter from '@/components/Footer'
 
 Vue.config.productionTip = false
+Vue.component(MyFooter.name,MyFooter)
 
 new Vue({
   el: '#app',
