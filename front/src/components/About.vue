@@ -25,10 +25,10 @@
                         <router-link :to="{name:'Service'}">产品服务</router-link>
                     </li>
                     <li class="dropdown">
-                        <router-link :to="{name:'Home'}">经典案例</router-link>
+                        <router-link :to="{name:'Demo'}">经典案例</router-link>
                     </li>
                     <li class="dropdown">
-                        <router-link :to="{name:'Home'}">联系我们</router-link>
+                        <router-link :to="{name:'Contact'}">联系我们</router-link>
                     </li>
                     </ul>
                 </div>

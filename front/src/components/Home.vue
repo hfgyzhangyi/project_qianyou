@@ -25,10 +25,10 @@
                   <router-link :to="{name:'Service'}">产品服务</router-link>
               </li>
               <li class="dropdown">
-                  <router-link :to="{name:'Home'}">经典案例</router-link>
+                  <router-link :to="{name:'Demo'}">经典案例</router-link>
               </li>
               <li class="dropdown">
-                  <router-link :to="{name:'Home'}">联系我们</router-link>
+                  <router-link :to="{name:'Contact'}">联系我们</router-link>
               </li>
             </ul>
           </div>
@@ -153,7 +153,7 @@
 </template>
 
 <script>
-//http://moban.dede58.com/20180129a/15/themes/img/code/chuan.png
+//http://moban.dede58.com/20180129a/15/themes/img/company-getstarted.png
 import $ from 'jquery'
 export default {
   methods:{

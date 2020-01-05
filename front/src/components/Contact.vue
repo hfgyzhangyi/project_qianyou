@@ -21,13 +21,13 @@
                     <li class="">
                         <router-link :to="{name:'About'}">关于我们</router-link>
                     </li>
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <router-link :to="{name:'Service'}">产品服务</router-link>
                     </li>
                     <li class="dropdown">
                         <router-link :to="{name:'Demo'}">经典案例</router-link>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <router-link :to="{name:'Contact'}">联系我们</router-link>
                     </li>
                     </ul>
@@ -36,75 +36,25 @@
             </nav>
             <div class="container container-zindex container-index">
                 <h1>
-                    <span>产品服务</span><br>全新的方式销售、服务、推广
+                    <span>联系我们</span><br>海内存知己，天涯若比邻
                 </h1>
-                <p>我们拥有策略、创意、技术、资源四大优势，为企业提供优质实效的微信营销服务，<br>成就您永远快人一步的微信赢销之道！</p>
+                <p>欢迎朋友们来公司坐坐，探讨关于团队协同的一切问题。</p>
             </div>
         </div>
-        <div class="container marketing">
+        <div class="container Client-list">
             <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">社会化媒体传播<span class="text-muted"></span></h2>
-                    <p class="lead">以落地活动为主要传播信息，定期将文字、图片及视频短片传到官方微信、微博进行传播。以目前最流行的微信、微博宣传增加品牌关注度、认知度、消费者信任度。</p>
-                    <p><a role="button" href="#" class="btn btn-lg btn-success">了解详情<span class="glyphicon glyphicon-menu-right"></span></a></p>
-                    <blockquote>
-                        <p class="Abstract-text-p">出乎意料地，足记经历了这次让人兴奋的爆发式增长。Yzhon公有云平台极致的资源响应速度和充分的弹性以及工程师们扎实的技术保障帮助我们成功地应对了这场异常艰难的技术考验。</p>
-                    </blockquote>
-                </div>
-                <div class="col-md-5">
-                    <img alt="500x500" data-src="holder.js/500x500/auto" class="featurette-image img-responsive center-block" src="../assets/chuan.png" data-holder-rendered="true">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid container-fluid-backs">
-            <div class="container marketing">
-                <div class="row featurette">
-                    <div class="col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">移动互联网搭建<span class="text-muted"></span></h2>
-                        <p class="lead">根据客户的需求，市场状况，企业情况等进行搭建适合客户的微信网站。</p>
-                        <p><a role="button" href="#" class="btn btn-lg btn-success">了解详情<span class="glyphicon glyphicon-menu-right"></span></a></p>
-                        <blockquote>
-                            <p class="Abstract-text-p">出乎意料地，足记经历了这次让人兴奋的爆发式增长。Yzhon公有云平台极致的资源响应速度和充分的弹性以及工程师们扎实的技术保障帮助我们成功地应对了这场异常艰难的技术考验。</p>
-                        </blockquote>
-                    </div>
-                    <div class="col-md-5 col-md-pull-7">
-                        <img alt="500x500" data-src="holder.js/500x500/auto" class="featurette-image img-responsive center-block" src="../assets/shou.png" data-holder-rendered="true">
+                <div class="col-md-12 contact-icon">
+                    <div>
+                        <h2 class="featurette-heading">北京前友推广信息科技有限公司</h2>
+                        <p>地址：北京市海淀区北三环西路42号中航科技</p>
+                        <p>邮编：100086</p>
+                        <p>电话：010-88889461</p>
+                        <p>Email: <a href="javascript:;">azenui@sina.com</a> </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container marketing">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">微信全案营销 <span class="text-muted"></span></h2>
-                    <p class="lead">微信营销平台+微信活动营销+传播方案，为企业量身定制独立的全案营销方案，全方位的为客户提供有效的解决方案。</p>
-                    <p><a role="button" href="#" class="btn btn-lg btn-success">了解详情<span class="glyphicon glyphicon-menu-right"></span></a></p>
-                    <blockquote>
-                        <p class="Abstract-text-p">在当今大数据时代的影响下，通过创意、新技术、新媒体的结合运用，为客户提供整合的解决方案与全方位的用户传播服务。我们注重专业，始终如一，让无限创意越过有限界限。最接地气的解决方案来源于理性思维加创造性思维及最高效的执行力。</p>
-                    </blockquote>
-                </div>
-                <div class="col-md-5">
-                    <img alt="500x500" data-src="holder.js/500x500/auto" class="featurette-image img-responsive center-block" src="../assets/wei.png" data-holder-rendered="true">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid container-fluid-backs">
-            <div class="container marketing">
-                <div class="row featurette">
-                    <div class="col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">定制项目开发<span class="text-muted"></span></h2>
-                        <p class="lead">展示+推广+互动+成交"整体微信营销解决方案.企业业务转型与升级首选</p>
-                        <p><a role="button" href="#" class="btn btn-lg btn-success">了解详情<span class="glyphicon glyphicon-menu-right"></span></a></p>
-                        <blockquote>
-                            <p class="Abstract-text-p">针对企业经营类型，产品特点的营销包装和推送，定制化解决方案 。</p>
-                        </blockquote>
-                    </div>
-                    <div class="col-md-5 col-md-pull-7">
-                        <img alt="500x500" data-src="holder.js/500x500/auto" class="featurette-image img-responsive center-block" src="../assets/web2.png" data-holder-rendered="true">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="container company-img "><img src="../assets/company-getstarted.png"></div>
         <my-footer></my-footer>
     </div>
 </template>
@@ -136,7 +86,7 @@ export default {
 .header-main{
   background-attachment: fixed;
   background-color: rgb(38, 38, 38);
-  background-image: url("../assets/Product.jpg");
+  background-image: url("../assets/contact-bg.jpg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -359,63 +309,23 @@ export default {
     font-size: 40px;
     font-weight: normal;
 }
-/**********************************/
-.marketing{
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding-top: 20px;
+.company-img{
+    text-align: center;
 }
-.marketing .featurette h2{
-    padding-bottom: 10px;
+.company-img img{
+    width: 70%;
+    vertical-align: middle;
+    margin-top: 35px;
 }
-.lead{
+.Client-list{
+    margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.4;
 }
-.marketing .featurette p{
-    font-size: 18px;
-    line-height: 2em;
+a{
+    color: #337ab7;
+    text-decoration: none;
 }
-.glyphicon{
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.glyphicon{
-    padding-left: 2px;
-}
-blockquote{
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
-}
-blockquote{
-    border-left: none;
-    font-size: 14px;
-    line-height: 1.5em;
-    padding-top: 20px;
-    padding-left: 0;
-    color: #999;
-}
-.container blockquote .Abstract-text-p{
-    padding: 10px 0 0 30px;
-    color: #999;
-    font-size: 14px;
-    line-height: 1.5em;
-    background-size: 24px auto;
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-.container-fluid-backs{
-    background-color: #f5f5f5;
+.contact-icon{
+    text-align: center;
 }
 </style>

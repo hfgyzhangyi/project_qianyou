@@ -19,6 +19,16 @@ export default new Router({
       path: '/Service',
       name: 'Service',
       component: resolve=>require(["@/components/Service"], resolve)
+    },
+    {
+      path: '/Demo',
+      name: 'Demo',
+      component: resolve=>require(["@/components/Demo"], resolve)
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: resolve=>require(["@/components/Contact"], resolve)
     }
   ]
 })
